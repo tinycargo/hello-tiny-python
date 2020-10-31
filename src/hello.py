@@ -7,4 +7,4 @@ def hello():
     return "<h1><b>HelloWorld, i'm on <span style='color:#34558B;'>%s</span></b></h1>" % platform.uname()[4]
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=80)

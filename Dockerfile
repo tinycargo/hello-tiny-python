@@ -16,3 +16,4 @@ WORKDIR /app
 
 ENTRYPOINT [ "python" ]
 CMD [ "hello.py" ]
+EXPOSE 80
